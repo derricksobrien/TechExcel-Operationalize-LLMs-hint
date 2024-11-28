@@ -26,7 +26,7 @@ Solution
     model:
       format: OpenAI
       name: gpt-35-turbo
-      version: **"0613"**
+      version: "0613" <--- REPLACE THIS
 * replace the reference to that template in **bootstrap.properties**
   - github_template_repo="<your-org-name>/GenAIOps-project-template"
 
