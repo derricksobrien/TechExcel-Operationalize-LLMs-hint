@@ -16,6 +16,7 @@ This may fail for a few reasons
 
 Problem
 * The GPT-3.5 model is not available in the chosen region (currently using version 0613)
+
 Solution
 * Fork the repo **azure/GenAIOps-project-template**
 * Find the **ai.yaml** file in the **infra** folder
