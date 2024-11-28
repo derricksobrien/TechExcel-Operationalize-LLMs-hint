@@ -20,6 +20,7 @@ Solution
 * Fork the repo **azure/GenAIOps-project-template**
 * Find the **ai.yaml** file in the **infra** folder
 * Replace the version number with one that is available in your chosen region (example 1112)
+  ```
   deployments:
   - name: gpt-35-turbo
     model:
@@ -27,16 +28,16 @@ Solution
       name: gpt-35-turbo
       version: **"0613"**
 * replace the reference to that template in **bootstrap.properties**
-  github_template_repo="<your-org-name>/GenAIOps-project-template"
+  - github_template_repo="<your-org-name>/GenAIOps-project-template"
 
 Problem
 * The user is not logged into AZ, AZD GitHub or GH
 
 Solution  
 * test each login by issuing a simple command
-** az group list
-** azd auth status
-** gh auth status
+- az group list
+- azd auth status
+- gh auth status
 
  
 
