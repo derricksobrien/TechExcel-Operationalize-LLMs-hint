@@ -7,9 +7,6 @@ parent: 'Exercise 01: Introduction to LLMs and Azure AI Services'
 
 # Task 00: Setup AI Project and AI Hub Resources
 
-## Description
-
-In this setup task, you will learn how to **start a new project** by creating a **GitHub repository** and an **AI Project** in a centralized **Azure AI Hub**. The **Azure AI Hub** is a top-level resource in Azure AI Foundry that enables **governance, self-service, security**, and **collaboration for AI projects**.
 
 ## Hints for coaches
 This may fail for a few reasons
@@ -43,6 +40,9 @@ Solution
 
  
 
+## Description
+
+In this setup task, you will learn how to **start a new project** by creating a **GitHub repository** and an **AI Project** in a centralized **Azure AI Hub**. The **Azure AI Hub** is a top-level resource in Azure AI Foundry that enables **governance, self-service, security**, and **collaboration for AI projects**.
 
 
 ## Success Criteria
