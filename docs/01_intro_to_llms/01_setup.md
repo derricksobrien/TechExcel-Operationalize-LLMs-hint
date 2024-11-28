@@ -28,7 +28,7 @@ Solution
       name: gpt-35-turbo
       version: "0613" <--- REPLACE THIS
 * replace the reference to that template in **bootstrap.properties**
-  - github_template_repo="<your-org-name>/GenAIOps-project-template"
+  - github_template_repo="your-org-name/GenAIOps-project-template"
 
 Problem
 * The user is not logged into AZ, AZD GitHub or GH
