@@ -11,6 +11,37 @@ parent: 'Exercise 01: Introduction to LLMs and Azure AI Services'
 
 In this setup task, you will learn how to **start a new project** by creating a **GitHub repository** and an **AI Project** in a centralized **Azure AI Hub**. The **Azure AI Hub** is a top-level resource in Azure AI Foundry that enables **governance, self-service, security**, and **collaboration for AI projects**.
 
+## Hints for coaches
+This may fail for a few reasons
+
+Problem
+* The GPT-3.5 model is not available in the chosen region (currently using version 0613)
+Solution
+* Fork the repo **azure/GenAIOps-project-template**
+* Find the **ai.yaml** file in the **infra** folder
+* Replace the version number with one that is available in your chosen region (example 1112)
+  deployments:
+  - name: gpt-35-turbo
+    model:
+      format: OpenAI
+      name: gpt-35-turbo
+      version: **"0613"**
+* replace the reference to that template in **bootstrap.properties**
+  github_template_repo="<your-org-name>/GenAIOps-project-template"
+
+Problem
+* The user is not logged into AZ, AZD GitHub or GH
+
+Solution  
+* test each login by issuing a simple command
+** az group list
+** azd auth status
+** gh auth status
+
+ 
+
+
+
 ## Success Criteria
 
 * Verify Prerequisites for Workshop
