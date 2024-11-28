@@ -35,9 +35,9 @@ Problem
 
 Solution  
 * test each login by issuing a simple command
-- az group list
-- azd auth status
-- gh auth status
+  - az group list
+  - azd auth status
+  - gh auth status
 
  
 
