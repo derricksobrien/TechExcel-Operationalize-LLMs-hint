@@ -31,6 +31,7 @@ Solution
 * replace the reference to that template in **bootstrap.properties**
   - github_template_repo="your-org-name/GenAIOps-project-template"
 
+
 Problem
 * The user is not logged into AZ, AZD GitHub or GH
 
