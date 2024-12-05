@@ -38,7 +38,7 @@ In this setup task, you will learn how to **start a new project** by creating a 
 * Install jq (optional) - a lightweight and flexible command-line JSON processor by running the following command `winget install jqlang.jq`
 
 {: .note }
-> The Windows installers make modifications to your PATH. When using Windows Terminal or VS Code Terminal or other environment, you will need to **open a new window** for the changes to take effect. (Simply opening a new tab will _not_ be sufficient.)
+> The Windows installers make modifications to your PATH. When using Windows Terminal or VS Code Terminal or other environment, you will need to **open a new window** for the changes to take effect. (Simply opening a new tab will _not_ be sufficient.).   VS COde or Terminal is recommended.  Do not attempt in PowerShell on your desktop.  You can also complete this in a cloud shell at shell.portal .com however you will need to login to GH using SSH (HTTPS not supported)
 
 ### Verifiy tools are installed
 
