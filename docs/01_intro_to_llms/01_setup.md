@@ -38,7 +38,12 @@ Solution
   - azd auth status
   - gh auth status
 
- 
+Problem
+ * safety evaluation throws an error
+
+Solution
+ * Safey evaluation provides guidance
+ * Here are the recommended locations: 'eastus2', 'francecentral', 'uksouth', 'swedencentral' 
 
 ## Description
 
