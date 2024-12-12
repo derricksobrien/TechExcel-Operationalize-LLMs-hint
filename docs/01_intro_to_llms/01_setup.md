@@ -42,7 +42,7 @@ Problem
  * safety evaluation throws an error
 
 Solution
- * Safey evaluation provides guidance
+ * Safety evaluation provides guidance
  * Here are the recommended locations: 'eastus2', 'francecentral', 'uksouth', 'swedencentral' 
 
 ## Description
